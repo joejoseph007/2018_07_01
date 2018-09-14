@@ -1,0 +1,851 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 5.x-197d9d3bf20a
+Exec   : blockMesh
+Date   : Jul 12 2018
+Time   : 15:19:26
+Host   : "joe-linux"
+PID    : 7827
+I/O    : uncollated
+Case   : /home/joe-linux/Desktop/18_07_11/CFD
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Deleting polyMesh directory
+    "/home/joe-linux/Desktop/18_07_11/CFD/constant/polyMesh"
+Creating block mesh from
+    "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #calcEntry at line 13 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_d0bb630c0b6c2978c1a0bcd58408dd1c3558cf9d.so"
+Using #calcEntry at line 14 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_61a82da7cf0b75bda7ce90059e33d30594b94c0c.so"
+Using #calcEntry at line 15 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_3a7c2626884f131da9f7b5027ff344c8b41d7c8b.so"
+Using #calcEntry at line 16 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_78e7671cb0038ac0fdfd93d93235485d24edbbd3.so"
+Using #calcEntry at line 18 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_53a9b433bd5e3b6ed76f3303c42d3ba371502161.so"
+Using #calcEntry at line 19 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_f74ea57df5f8ea57277bc335a96074188857fb56.so"
+Using #calcEntry at line 20 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_c957b23957bdc79e0ed696468881be08b6de4848.so"
+Using #calcEntry at line 24 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_f1963a000d0cf281dd6e283c08a5a3274b826656.so"
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 4
+		Number of boundary faces : 34
+		Number of defined boundary faces : 34
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 1
+    Block 0 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 2 .. 2
+
+    Block 1 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 2 .. 2
+
+    Block 2 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 2 .. 2
+
+    Block 3 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 2 .. 2
+
+    Block 4 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 2 .. 2
+
+    Block 5 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 2 .. 2
+
+    Block 6 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 2 .. 2
+
+Creating merge patch pairs
+
+Adding point and face zones
+Creating attachPolyTopoChanger
+
+Adding cell zones
+    0	train
+    1	sides
+
+Writing cell zones as cellSets
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (-115.2 0 -1) (57.6 5.76 1)
+  nPoints: 78504
+  nCells: 37000
+  nFaces: 150250
+  nInternalFaces: 71750
+----------------
+Patches
+----------------
+  patch 0 (start: 71750 size: 1200) name: AMI1
+  patch 1 (start: 72950 size: 1000) name: AMI2
+  patch 2 (start: 73950 size: 40) name: inlet
+  patch 3 (start: 73990 size: 40) name: outlet
+  patch 4 (start: 74030 size: 620) name: train
+  patch 5 (start: 74650 size: 1000) name: outside
+  patch 6 (start: 75650 size: 600) name: symmetry
+  patch 7 (start: 76250 size: 37000) name: front
+  patch 8 (start: 113250 size: 37000) name: back
+
+End
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 5.x-197d9d3bf20a
+Exec   : extrudeMesh
+Date   : Jul 12 2018
+Time   : 15:19:28
+Host   : "joe-linux"
+PID    : 7828
+I/O    : uncollated
+Case   : /home/joe-linux/Desktop/18_07_11/CFD
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Selecting extrudeModel linearNormal
+Extruding from patch using model linearNormal
+Flipping normals before extruding
+Not collapsing any edges after extrusion
+
+Extruding patches 1(front) on mesh "/home/joe-linux/Desktop/18_07_11/CFD"
+
+Create mesh for time = 0
+
+Adding overall 0 processor patches.
+Testing:"/home/joe-linux/Desktop/18_07_11/CFD/system/fvSchemes"
+Mesh bounding box : (-115.2 -7.70988e-17 0.95) (57.6 5.76 1)
+        with span : (172.8 5.76 0.05)
+Merge distance    : 0
+
+Writing mesh to "/home/joe-linux/Desktop/18_07_11/CFD/constant/region0"
+
+End
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 5.x-197d9d3bf20a
+Exec   : createPatch -overwrite
+Date   : Jul 12 2018
+Time   : 15:19:29
+Host   : "joe-linux"
+PID    : 7829
+I/O    : uncollated
+Case   : /home/joe-linux/Desktop/18_07_11/CFD
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Reading createPatchDict
+
+Patch 'AMI1' already exists.  Only moving patch faces - type will remain the same
+Patch 'AMI2' already exists.  Only moving patch faces - type will remain the same
+
+--> FOAM Warning : 
+    From function Foam::labelHashSet Foam::polyBoundaryMesh::patchSet(const Foam::UList<Foam::wordRe>&, bool, bool) const
+    in file meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.C at line 798
+    Cannot find any patch or group names matching AMI
+--> FOAM Warning : 
+    From function Foam::labelHashSet Foam::polyBoundaryMesh::patchSet(const Foam::UList<Foam::wordRe>&, bool, bool) const
+    in file meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.C at line 798
+    Cannot find any patch or group names matching AMI_slave
+
+Doing topology modification to order faces.
+
+Not synchronising points.
+
+Removing patches with no faces in them.
+
+No patches removed.
+Writing repatched mesh to 0
+
+End
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 5.x-197d9d3bf20a
+Exec   : blockMesh
+Date   : Jul 12 2018
+Time   : 16:04:41
+Host   : "joe-linux"
+PID    : 8856
+I/O    : uncollated
+Case   : /home/joe-linux/Desktop/18_07_11/CFD
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Deleting polyMesh directory
+    "/home/joe-linux/Desktop/18_07_11/CFD/constant/polyMesh"
+Creating block mesh from
+    "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #calcEntry at line 13 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_d0bb630c0b6c2978c1a0bcd58408dd1c3558cf9d.so"
+Using #calcEntry at line 14 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_61a82da7cf0b75bda7ce90059e33d30594b94c0c.so"
+Using #calcEntry at line 15 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_3a7c2626884f131da9f7b5027ff344c8b41d7c8b.so"
+Using #calcEntry at line 16 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_78e7671cb0038ac0fdfd93d93235485d24edbbd3.so"
+Using #calcEntry at line 18 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_53a9b433bd5e3b6ed76f3303c42d3ba371502161.so"
+Using #calcEntry at line 19 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_f74ea57df5f8ea57277bc335a96074188857fb56.so"
+Using #calcEntry at line 20 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_c957b23957bdc79e0ed696468881be08b6de4848.so"
+Using #calcEntry at line 24 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_8f4d7e9362a8e790f89c236c98fb7ff3bcf7d36f.so"
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 4
+		Number of boundary faces : 34
+		Number of defined boundary faces : 34
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 1
+    Block 0 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 0.02 .. 0.02
+
+    Block 1 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 0.02 .. 0.02
+
+    Block 2 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 0.02 .. 0.02
+
+    Block 3 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 0.02 .. 0.02
+
+    Block 4 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 0.02 .. 0.02
+
+    Block 5 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 0.02 .. 0.02
+
+    Block 6 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 0.02 .. 0.02
+
+Creating merge patch pairs
+
+Adding point and face zones
+Creating attachPolyTopoChanger
+
+Adding cell zones
+    0	train
+    1	sides
+
+Writing cell zones as cellSets
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (-115.2 0 -0.01) (57.6 5.76 0.01)
+  nPoints: 78504
+  nCells: 37000
+  nFaces: 150250
+  nInternalFaces: 71750
+----------------
+Patches
+----------------
+  patch 0 (start: 71750 size: 1200) name: AMI1
+  patch 1 (start: 72950 size: 1000) name: AMI2
+  patch 2 (start: 73950 size: 40) name: inlet
+  patch 3 (start: 73990 size: 40) name: outlet
+  patch 4 (start: 74030 size: 620) name: train
+  patch 5 (start: 74650 size: 1000) name: outside
+  patch 6 (start: 75650 size: 600) name: symmetry
+  patch 7 (start: 76250 size: 37000) name: front
+  patch 8 (start: 113250 size: 37000) name: back
+
+End
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 5.x-197d9d3bf20a
+Exec   : extrudeMesh
+Date   : Jul 12 2018
+Time   : 16:04:42
+Host   : "joe-linux"
+PID    : 8857
+I/O    : uncollated
+Case   : /home/joe-linux/Desktop/18_07_11/CFD
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Selecting extrudeModel linearNormal
+Extruding from patch using model linearNormal
+Flipping normals before extruding
+Not collapsing any edges after extrusion
+
+Extruding patches 1(front) on mesh "/home/joe-linux/Desktop/18_07_11/CFD"
+
+Create mesh for time = 0
+
+Adding overall 0 processor patches.
+Testing:"/home/joe-linux/Desktop/18_07_11/CFD/system/fvSchemes"
+Mesh bounding box : (-115.2 -6.02335e-19 -0.04) (57.6 5.76 0.01)
+        with span : (172.8 5.76 0.05)
+Merge distance    : 0
+
+Writing mesh to "/home/joe-linux/Desktop/18_07_11/CFD/constant/region0"
+
+End
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 5.x-197d9d3bf20a
+Exec   : blockMesh
+Date   : Jul 12 2018
+Time   : 16:12:33
+Host   : "joe-linux"
+PID    : 9151
+I/O    : uncollated
+Case   : /home/joe-linux/Desktop/18_07_11/CFD
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Deleting polyMesh directory
+    "/home/joe-linux/Desktop/18_07_11/CFD/constant/polyMesh"
+Creating block mesh from
+    "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #calcEntry at line 13 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_d0bb630c0b6c2978c1a0bcd58408dd1c3558cf9d.so"
+Using #calcEntry at line 14 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_61a82da7cf0b75bda7ce90059e33d30594b94c0c.so"
+Using #calcEntry at line 15 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_3a7c2626884f131da9f7b5027ff344c8b41d7c8b.so"
+Using #calcEntry at line 16 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_78e7671cb0038ac0fdfd93d93235485d24edbbd3.so"
+Using #calcEntry at line 18 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_53a9b433bd5e3b6ed76f3303c42d3ba371502161.so"
+Using #calcEntry at line 19 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_f74ea57df5f8ea57277bc335a96074188857fb56.so"
+Using #calcEntry at line 20 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_c957b23957bdc79e0ed696468881be08b6de4848.so"
+Using #calcEntry at line 24 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_8f4d7e9362a8e790f89c236c98fb7ff3bcf7d36f.so"
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 5.x-197d9d3bf20a
+Exec   : extrudeMesh
+Date   : Jul 12 2018
+Time   : 16:12:33
+Host   : "joe-linux"
+PID    : 9152
+I/O    : uncollated
+Case   : /home/joe-linux/Desktop/18_07_11/CFD
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Selecting extrudeModel linearNormal
+Extruding from patch using model linearNormal
+Flipping normals before extruding
+Not collapsing any edges after extrusion
+
+Extruding patches 1(front) on mesh "/home/joe-linux/Desktop/18_07_11/CFD"
+
+Create mesh for time = 0
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 5.x-197d9d3bf20a
+Exec   : blockMesh
+Date   : Jul 12 2018
+Time   : 16:33:07
+Host   : "joe-linux"
+PID    : 9531
+I/O    : uncollated
+Case   : /home/joe-linux/Desktop/18_07_11/CFD
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Creating block mesh from
+    "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #calcEntry at line 13 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_d0bb630c0b6c2978c1a0bcd58408dd1c3558cf9d.so"
+Using #calcEntry at line 14 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_61a82da7cf0b75bda7ce90059e33d30594b94c0c.so"
+Using #calcEntry at line 15 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_3a7c2626884f131da9f7b5027ff344c8b41d7c8b.so"
+Using #calcEntry at line 16 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_78e7671cb0038ac0fdfd93d93235485d24edbbd3.so"
+Using #calcEntry at line 18 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_53a9b433bd5e3b6ed76f3303c42d3ba371502161.so"
+Using #calcEntry at line 19 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_f74ea57df5f8ea57277bc335a96074188857fb56.so"
+Using #calcEntry at line 20 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_c957b23957bdc79e0ed696468881be08b6de4848.so"
+Using #calcEntry at line 24 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_8f4d7e9362a8e790f89c236c98fb7ff3bcf7d36f.so"
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 4
+		Number of boundary faces : 34
+		Number of defined boundary faces : 34
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 1
+    Block 0 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 0.02 .. 0.02
+
+    Block 1 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 0.02 .. 0.02
+
+    Block 2 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 0.02 .. 0.02
+
+    Block 3 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 0.02 .. 0.02
+
+    Block 4 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 0.02 .. 0.02
+
+    Block 5 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 0.02 .. 0.02
+
+    Block 6 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 0.02 .. 0.02
+
+Creating merge patch pairs
+
+Adding point and face zones
+Creating attachPolyTopoChanger
+
+Adding cell zones
+    0	train
+    1	sides
+
+Writing cell zones as cellSets
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (-115.2 0 -0.01) (57.6 5.76 0.01)
+  nPoints: 78504
+  nCells: 37000
+  nFaces: 150250
+  nInternalFaces: 71750
+----------------
+Patches
+----------------
+  patch 0 (start: 71750 size: 1200) name: AMI1
+  patch 1 (start: 72950 size: 1000) name: AMI2
+  patch 2 (start: 73950 size: 40) name: inlet
+  patch 3 (start: 73990 size: 40) name: outlet
+  patch 4 (start: 74030 size: 620) name: train
+  patch 5 (start: 74650 size: 1000) name: outside
+  patch 6 (start: 75650 size: 600) name: symmetry
+  patch 7 (start: 76250 size: 37000) name: front
+  patch 8 (start: 113250 size: 37000) name: back
+
+End
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 5.x-197d9d3bf20a
+Exec   : extrudeMesh
+Date   : Jul 12 2018
+Time   : 16:33:08
+Host   : "joe-linux"
+PID    : 9532
+I/O    : uncollated
+Case   : /home/joe-linux/Desktop/18_07_11/CFD
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Selecting extrudeModel linearNormal
+Extruding from patch using model linearNormal
+Flipping normals before extruding
+Not collapsing any edges after extrusion
+
+Extruding patches 1(front) on mesh "/home/joe-linux/Desktop/18_07_11/CFD"
+
+Create mesh for time = 0
+
+Adding overall 0 processor patches.
+Testing:"/home/joe-linux/Desktop/18_07_11/CFD/system/fvSchemes"
+Mesh bounding box : (-115.2 -6.02335e-19 -0.04) (57.6 5.76 0.01)
+        with span : (172.8 5.76 0.05)
+Merge distance    : 0
+
+Writing mesh to "/home/joe-linux/Desktop/18_07_11/CFD/constant/region0"
+
+End
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 5.x-197d9d3bf20a
+Exec   : blockMesh
+Date   : Jul 12 2018
+Time   : 16:35:27
+Host   : "joe-linux"
+PID    : 9612
+I/O    : uncollated
+Case   : /home/joe-linux/Desktop/18_07_11/CFD
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Deleting polyMesh directory
+    "/home/joe-linux/Desktop/18_07_11/CFD/constant/polyMesh"
+Creating block mesh from
+    "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #calcEntry at line 13 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_d0bb630c0b6c2978c1a0bcd58408dd1c3558cf9d.so"
+Using #calcEntry at line 14 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_61a82da7cf0b75bda7ce90059e33d30594b94c0c.so"
+Using #calcEntry at line 15 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_3a7c2626884f131da9f7b5027ff344c8b41d7c8b.so"
+Using #calcEntry at line 16 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_78e7671cb0038ac0fdfd93d93235485d24edbbd3.so"
+Using #calcEntry at line 18 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_53a9b433bd5e3b6ed76f3303c42d3ba371502161.so"
+Using #calcEntry at line 19 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_f74ea57df5f8ea57277bc335a96074188857fb56.so"
+Using #calcEntry at line 20 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_c957b23957bdc79e0ed696468881be08b6de4848.so"
+Using #calcEntry at line 24 in file "/home/joe-linux/Desktop/18_07_11/CFD/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_8f4d7e9362a8e790f89c236c98fb7ff3bcf7d36f.so"
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 4
+		Number of boundary faces : 34
+		Number of defined boundary faces : 34
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 1
+    Block 0 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 0.02 .. 0.02
+
+    Block 1 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 0.02 .. 0.02
+
+    Block 2 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 0.02 .. 0.02
+
+    Block 3 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 0.02 .. 0.02
+
+    Block 4 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 0.02 .. 0.02
+
+    Block 5 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 0.02 .. 0.02
+
+    Block 6 cell size :
+        i : 0.144 .. 0.144
+        j : 0.144 .. 0.144
+        k : 0.02 .. 0.02
+
+Creating merge patch pairs
+
+Adding point and face zones
+Creating attachPolyTopoChanger
+
+Adding cell zones
+    0	train
+    1	sides
+
+Writing cell zones as cellSets
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (-115.2 0 -0.01) (57.6 5.76 0.01)
+  nPoints: 78504
+  nCells: 37000
+  nFaces: 150250
+  nInternalFaces: 71750
+----------------
+Patches
+----------------
+  patch 0 (start: 71750 size: 1200) name: AMI1
+  patch 1 (start: 72950 size: 1000) name: AMI2
+  patch 2 (start: 73950 size: 40) name: inlet
+  patch 3 (start: 73990 size: 40) name: outlet
+  patch 4 (start: 74030 size: 620) name: train
+  patch 5 (start: 74650 size: 1000) name: outside
+  patch 6 (start: 75650 size: 600) name: symmetry
+  patch 7 (start: 76250 size: 37000) name: front
+  patch 8 (start: 113250 size: 37000) name: back
+
+End
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 5.x-197d9d3bf20a
+Exec   : extrudeMesh
+Date   : Jul 12 2018
+Time   : 16:35:28
+Host   : "joe-linux"
+PID    : 9613
+I/O    : uncollated
+Case   : /home/joe-linux/Desktop/18_07_11/CFD
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Selecting extrudeModel linearNormal
+Extruding from patch using model linearNormal
+Flipping normals before extruding
+Not collapsing any edges after extrusion
+
+Extruding patches 1(front) on mesh "/home/joe-linux/Desktop/18_07_11/CFD"
+
+Create mesh for time = 0
+
+Adding overall 0 processor patches.
+Testing:"/home/joe-linux/Desktop/18_07_11/CFD/system/fvSchemes"
+Mesh bounding box : (-115.2 -6.02335e-19 -0.04) (57.6 5.76 0.01)
+        with span : (172.8 5.76 0.05)
+Merge distance    : 0
+
+Writing mesh to "/home/joe-linux/Desktop/18_07_11/CFD/constant/region0"
+
+End
+

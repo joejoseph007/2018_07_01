@@ -1,0 +1,107 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 5.x-197d9d3bf20a
+Exec   : blockMesh
+Date   : Jul 18 2018
+Time   : 14:01:29
+Host   : "joe-linux"
+PID    : 26999
+I/O    : uncollated
+Case   : /home/joe-linux/Desktop/18_07_11/CFD_static_RANS
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Creating block mesh from
+    "/home/joe-linux/Desktop/18_07_11/CFD_static_RANS/system/blockMeshDict"
+Using #calcEntry at line 13 in file "/home/joe-linux/Desktop/18_07_11/CFD_static_RANS/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD_static_RANS/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_53a9b433bd5e3b6ed76f3303c42d3ba371502161.so"
+Using #calcEntry at line 14 in file "/home/joe-linux/Desktop/18_07_11/CFD_static_RANS/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD_static_RANS/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_299e37d0c284cd0ca8182fd1dfa70d4a15d999f8.so"
+Using #calcEntry at line 16 in file "/home/joe-linux/Desktop/18_07_11/CFD_static_RANS/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD_static_RANS/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_78e7671cb0038ac0fdfd93d93235485d24edbbd3.so"
+Using #calcEntry at line 18 in file "/home/joe-linux/Desktop/18_07_11/CFD_static_RANS/system/blockMeshDict"
+Using #calcEntry at line 20 in file "/home/joe-linux/Desktop/18_07_11/CFD_static_RANS/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD_static_RANS/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_c957b23957bdc79e0ed696468881be08b6de4848.so"
+Using #calcEntry at line 24 in file "/home/joe-linux/Desktop/18_07_11/CFD_static_RANS/system/blockMeshDict"
+Using #codeStream with "/home/joe-linux/Desktop/18_07_11/CFD_static_RANS/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_f1963a000d0cf281dd6e283c08a5a3274b826656.so"
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 4
+		Number of boundary faces : 22
+		Number of defined boundary faces : 22
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 1
+    Block 0 cell size :
+        i : 0.0217914 .. 1.08957
+        j : 0.0576 .. 0.0576
+        k : 2 .. 2
+
+    Block 1 cell size :
+        i : 0.0217914 .. 1.08957
+        j : 0.00453495 .. 0.226747
+        k : 2 .. 2
+
+    Block 2 cell size :
+        i : 0.288 .. 0.288
+        j : 0.00453495 .. 0.226747
+        k : 2 .. 2
+
+    Block 3 cell size :
+        i : 1.12575 .. 0.022515
+        j : 0.0576 .. 0.0576
+        k : 2 .. 2
+
+    Block 4 cell size :
+        i : 1.12575 .. 0.022515
+        j : 0.0576 .. 0.0576
+        k : 2 .. 2
+
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (-100.8 0 -1) (5.76 5.76 1)
+  nPoints: 59992
+  nCells: 29500
+  nFaces: 118495
+  nInternalFaces: 58505
+----------------
+Patches
+----------------
+  patch 0 (start: 58505 size: 100) name: inlet
+  patch 1 (start: 58605 size: 100) name: outlet
+  patch 2 (start: 58705 size: 350) name: train
+  patch 3 (start: 59055 size: 370) name: outside
+  patch 4 (start: 59425 size: 70) name: symmetry
+  patch 5 (start: 59495 size: 29500) name: front
+  patch 6 (start: 88995 size: 29500) name: back
+
+End
+

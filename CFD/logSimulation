@@ -1,0 +1,170 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 5.x-197d9d3bf20a
+Exec   : pimpleDyMFoam
+Date   : Jul 12 2018
+Time   : 15:19:29
+Host   : "joe-linux"
+PID    : 7832
+I/O    : uncollated
+Case   : /home/joe-linux/Desktop/18_07_11/CFD
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Selecting dynamicFvMesh dynamicMotionSolverFvMesh
+Selecting motion solver: solidBody
+Selecting solid-body motion function linearMotion
+Applying solid body motion to cellZone train
+
+PIMPLE: max iterations = 15
+    field p	: relTol 0, tolerance 0.0001
+    field U	: relTol 0, tolerance 1e-05
+
+Reading field p
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 5.x-197d9d3bf20a
+Exec   : pimpleDyMFoam
+Date   : Jul 12 2018
+Time   : 16:04:43
+Host   : "joe-linux"
+PID    : 8859
+I/O    : uncollated
+Case   : /home/joe-linux/Desktop/18_07_11/CFD
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Selecting dynamicFvMesh dynamicMotionSolverFvMesh
+Selecting motion solver: solidBody
+Selecting solid-body motion function linearMotion
+Applying solid body motion to cellZone train
+
+PIMPLE: max iterations = 15
+    field p	: relTol 0, tolerance 0.0001
+    field U	: relTol 0, tolerance 1e-05
+
+Reading field p
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 5.x-197d9d3bf20a
+Exec   : pimpleDyMFoam
+Date   : Jul 12 2018
+Time   : 16:12:33
+Host   : "joe-linux"
+PID    : 9154
+I/O    : uncollated
+Case   : /home/joe-linux/Desktop/18_07_11/CFD
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Selecting dynamicFvMesh dynamicMotionSolverFvMesh
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 5.x-197d9d3bf20a
+Exec   : pimpleDyMFoam
+Date   : Jul 12 2018
+Time   : 16:33:09
+Host   : "joe-linux"
+PID    : 9534
+I/O    : uncollated
+Case   : /home/joe-linux/Desktop/18_07_11/CFD
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Selecting dynamicFvMesh dynamicMotionSolverFvMesh
+Selecting motion solver: solidBody
+Selecting solid-body motion function linearMotion
+Applying solid body motion to cellZone train
+
+PIMPLE: max iterations = 15
+    field p	: relTol 0, tolerance 0.0001
+    field U	: relTol 0, tolerance 1e-05
+
+Reading field p
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 5.x-197d9d3bf20a
+Exec   : pimpleDyMFoam
+Date   : Jul 12 2018
+Time   : 16:35:28
+Host   : "joe-linux"
+PID    : 9615
+I/O    : uncollated
+Case   : /home/joe-linux/Desktop/18_07_11/CFD
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Selecting dynamicFvMesh dynamicMotionSolverFvMesh
+Selecting motion solver: solidBody
+Selecting solid-body motion function linearMotion
+Applying solid body motion to cellZone train
+
+PIMPLE: max iterations = 15
+    field p	: relTol 0, tolerance 0.0001
+    field U	: relTol 0, tolerance 1e-05
+
+Reading field p
+

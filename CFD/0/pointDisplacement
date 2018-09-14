@@ -1,0 +1,68 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       pointVectorField;
+    location    "0";
+    object      pointDisplacement;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 1 0 0 0 0 0];
+
+internalField   uniform (0 0 0);
+
+boundaryField
+{
+    AMI1
+    {
+        //type            fixedValue;
+        type            cyclicACMI;
+        value           uniform (0 0 0);
+    }
+
+    AMI2
+    {
+        //type            calculated;
+        type            cyclicACMI;
+        value           uniform (0 0 0);
+    }
+
+    inlet
+    {
+        type            fixedValue;
+        value           uniform (0 0 0);
+    }
+
+    outlet
+    {
+        type            fixedValue;
+        value           uniform (0 0 0);
+    }
+
+    outside
+    {
+        type            fixedValue;
+        value           uniform (0 0 0);
+    }
+
+    train 
+    {
+        type            calculated;
+        value           uniform (0 0 0);
+    }
+
+    #include "include/frontBackPatches"
+
+
+}
+
+
+// ************************************************************************* //
